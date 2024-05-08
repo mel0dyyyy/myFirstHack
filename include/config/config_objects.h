@@ -27,7 +27,7 @@
 /**
  * Allow previewing blue coin locations from a blue coin switch when Mario is standing on the blue coin switch.
  */
-// #define BLUE_COIN_SWITCH_PREVIEW
+#define BLUE_COIN_SWITCH_PREVIEW
 
 /****************
  * -- GOOMBA --
@@ -51,7 +51,7 @@
 /**
  * Uses intendedYaw to control Hoot instead of the raw left and right inputs.
  */
-#define HOOT_YAW_FIX
+// #define HOOT_YAW_FIX
 
 /**
  * Causes leaf particles to occasionally fall from trees which contain Hoot.
@@ -74,7 +74,7 @@
 /**
  * Fix the water rings in DDD by checking for interaction rather than normals.
  */
-#define FIX_WATER_RINGS
+// #define FIX_WATER_RINGS
 
 /********************
  * -- POWER STAR --
@@ -92,7 +92,7 @@
 /**
  * Collecting a 1-Up Mushroom will fully heal Mario.
  */
-#define MUSHROOMS_HEAL
+// #define MUSHROOMS_HEAL
 
 /***************************
  * -- PLATFORM ON TRACK --
@@ -119,7 +119,7 @@
 /**
  * The number of parts Pokey has, including the head. Vanilla is 5, max is 30.
  */
-#define POKEY_NUM_SEGMENTS       5
+#define POKEY_NUM_SEGMENTS       30
 
 /*****************
  * -- WIGGLER --
