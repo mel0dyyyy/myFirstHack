@@ -41,7 +41,7 @@
 /**
  * Disables fall damage.
  */
-#define NO_FALL_DAMAGE
+// #define NO_FALL_DAMAGE
 
 /**
  * Disables the scream that mario makes when falling off a great height (this is separate from actual fall damage).
@@ -96,7 +96,7 @@
 /**
  * Allows Mario to jump kick on steep surfaces that are set to be non slippery, instead of being forced to dive.
  */
-#define JUMP_KICK_FIX
+// #define JUMP_KICK_FIX
 
 /**
  * Allows Mario to grab hangable ceilings from any state.
@@ -134,12 +134,12 @@
  * be interrupted with text
  * Uncomment this to fix this bug, and frustrate speedrunners
  */
-#define BUGFIX_DIALOG_TIME_STOP
+// #define BUGFIX_DIALOG_TIME_STOP
 
 /**
  * Enables Platform Displacement 2, an upgrade to the physics involving moving platforms and how Mario interacts with them.
  */
-#define PLATFORM_DISPLACEMENT_2
+// #define PLATFORM_DISPLACEMENT_2
 
 /**
  * Inertia defines; allow Mario to preserve his momemtum when leaving moving platforms.
